@@ -1,10 +1,9 @@
-let i;
 
-let num=121
-let str= num+""
-  let bag=""
 
-  for(i=str.length-1;i>=0;i--)
+let str="naman";
+ let bag=""
+
+  for(let i=str.length-1;i>=0;i--)
   {
       bag= bag+ str[i]
   
@@ -12,9 +11,9 @@ let str= num+""
   
  if(str==bag)
  {
-   console.log("yes)
+   console.log("yes");
  }
 else{
-  console.log("no)
+  console.log("no");
 }
   
